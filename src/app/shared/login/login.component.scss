@@ -1,0 +1,65 @@
+.login-img {
+  width: 65%;
+  height: 100vh;
+  background-image: url("../../../assets/images/surf-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mat-form-field {
+  width: 100%;
+  min-width: 300px;
+}
+
+mat-card-title,
+mat-card-content {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  padding: 16px;
+  width: 300px;
+  color: white;
+  background-color: red;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.login-form {
+  width: 35%;
+}
+
+.logo {
+  text-align: center;
+  min-height: 360px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.place-login-form {
+  position: relative;
+  top: -30px;
+}
+
+@media screen and (max-width: 992px) {
+  .login-img {
+    display: none;
+  }
+
+  .login-form {
+    width: 100%;
+    padding: 20px;
+    margin-top: 250px;
+  }
+}
